@@ -1,0 +1,19 @@
+{
+  "invoiceHeader": {
+    "supplierName": "Bizanter",
+    "invoiceNumber": "2022555",
+    "invoiceDate": "2022-08-31",
+    "kvkNumber": "69429576",
+    "vatNumber": "NL181115121B03"
+  },
+  "isCoachingInvoice": true,
+  "clientCases": [
+    {
+      "validatedClientCaseNumber": "ZU16-I25-555",
+      "rawClientCaseNumber": "ZU16-125-555",
+      "date": "2022-08-25",
+      "durationHours": 1.5
+    }
+  ],
+  "clientCasesNoActivity": []
+}

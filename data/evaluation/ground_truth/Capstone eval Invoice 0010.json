@@ -1,0 +1,73 @@
+{
+  "invoiceHeader": {
+    "supplierName": "Psychologiepraktijk Beemsterboer",
+    "invoiceNumber": "0622-042",
+    "invoiceDate": "2022-07-07",
+    "kvkNumber": "24354813",
+    "vatNumber": null
+  },
+  "isCoachingInvoice": true,
+  "clientCases": [
+    {
+      "validatedClientCaseNumber": "GQ2-Q18-569",
+      "rawClientCaseNumber": "GQ2-Q18-569",
+      "date": "2022-07-15",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "CM9-S15-564",
+      "rawClientCaseNumber": "CM9-S15-564",
+      "date": "2022-07-25",
+      "durationHours": 0.5
+    },
+    {
+      "validatedClientCaseNumber": "GT8-Q49-165",
+      "rawClientCaseNumber": "GT8-Q49-165",
+      "date": "2022-07-05",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "GZ14-L55-378",
+      "rawClientCaseNumber": "GZ14-L55-378",
+      "date": "2022-07-19",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "HZ22-W18-451",
+      "rawClientCaseNumber": "HZ22-W18-451",
+      "date": "2022-07-08",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "HD25-K98-332",
+      "rawClientCaseNumber": "HD25-K98-332",
+      "date": "2022-07-04",
+      "durationHours": 2.0
+    },
+    {
+      "validatedClientCaseNumber": "HK31-J87-351",
+      "rawClientCaseNumber": "HK31-J87-351",
+      "date": "2022-07-14",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "HZ16-L49-597",
+      "rawClientCaseNumber": "HZ16-L49-597",
+      "date": "2022-07-05",
+      "durationHours": 2.0
+    },
+    {
+      "validatedClientCaseNumber": "ZM23-A23-566",
+      "rawClientCaseNumber": "ZM23-A23-566",
+      "date": "2022-07-11",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "ZN1-X45-453",
+      "rawClientCaseNumber": "ZN1-X45-453",
+      "date": "2022-07-20",
+      "durationHours": 1.0
+    }
+  ],
+  "clientCasesNoActivity": []
+}

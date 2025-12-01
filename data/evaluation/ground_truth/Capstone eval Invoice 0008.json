@@ -1,0 +1,25 @@
+{
+  "invoiceHeader": {
+    "supplierName": "Blieperdebliep",
+    "invoiceNumber": null,
+    "invoiceDate": "2018-03-29",
+    "kvkNumber": "36272999",
+    "vatNumber": "NL159345466B12"
+  },
+  "isCoachingInvoice": true,
+  "clientCases": [
+    {
+      "validatedClientCaseNumber": "CH26-D49-187",
+      "rawClientCaseNumber": "CH26-D49-187",
+      "date": "2018-02-05",
+      "durationHours": 1.5
+    },
+    {
+      "validatedClientCaseNumber": "CH26-D49-187",
+      "rawClientCaseNumber": "CH26-D49-187",
+      "date": "2018-02-13",
+      "durationHours": 1.25
+    }
+  ],
+  "clientCasesNoActivity": []
+}

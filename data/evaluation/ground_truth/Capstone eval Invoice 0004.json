@@ -1,0 +1,31 @@
+{
+  "invoiceHeader": {
+    "supplierName": "Clianteé Coaching",
+    "invoiceNumber": "12593",
+    "invoiceDate": "2023-07-30",
+    "kvkNumber": "69329976",
+    "vatNumber": "NL163114114B01"
+  },
+  "isCoachingInvoice": true,
+  "clientCases": [
+    {
+      "validatedClientCaseNumber": "CA15-L15-666",
+      "rawClientCaseNumber": "CA15-L15-666",
+      "date": "2023-07-15",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "KK6-Q17-333",
+      "rawClientCaseNumber": "KK6-Q17-333",
+      "date": "2023-07-25",
+      "durationHours": 1.5
+    },
+    {
+      "validatedClientCaseNumber": "EA17-P01-333",
+      "rawClientCaseNumber": "EA17-P01-333",
+      "date": "2023-07-26",
+      "durationHours": 1.25
+    }
+  ],
+  "clientCasesNoActivity": []
+}

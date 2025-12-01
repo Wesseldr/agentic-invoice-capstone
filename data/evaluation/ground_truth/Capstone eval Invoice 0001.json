@@ -1,0 +1,49 @@
+{
+  "invoiceHeader": {
+    "supplierName": "Bizanter",
+    "invoiceNumber": "2022029",
+    "invoiceDate": "2022-06-16",
+    "kvkNumber": "69429576",
+    "vatNumber": "NL181115121B03"
+  },
+  "isCoachingInvoice": true,
+  "clientCases": [
+    {
+      "validatedClientCaseNumber": "ZU16-N25-208",
+      "rawClientCaseNumber": "ZU16-N25-208",
+      "date": "2022-05-25",
+      "durationHours": 1.5
+    },
+    {
+      "validatedClientCaseNumber": "ZA6-K55-453",
+      "rawClientCaseNumber": "ZA6-K55-453",
+      "date": "2022-05-15",
+      "durationHours": 1.5
+    },
+    {
+      "validatedClientCaseNumber": "ZH19-R44-173",
+      "rawClientCaseNumber": "ZH19-R44-173",
+      "date": "2022-05-09",
+      "durationHours": 1.5
+    },
+    {
+      "validatedClientCaseNumber": "JJ20-N50-476",
+      "rawClientCaseNumber": "JJ20-N50-476",
+      "date": "2022-05-23",
+      "durationHours": 1.5
+    },
+    {
+      "validatedClientCaseNumber": "GG14-R17-559",
+      "rawClientCaseNumber": "GG14-R17-559",
+      "date": "2022-05-23",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "DG2-Q13-217",
+      "rawClientCaseNumber": "DG2-Q13-217",
+      "date": "2022-05-11",
+      "durationHours": 1.5
+    }
+  ],
+  "clientCasesNoActivity": []
+}

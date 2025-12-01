@@ -1,0 +1,207 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings
+*.sublime-project
+*.sublime-workspace
+.ropeproject
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Data and Output Files (project specific)
+data/processed/
+data/extraction_results*
+data/**/*.parquet
+data/**/*.json
+data/**/raw_texts/
+data/**/llm_prompts/
+*.log
+logs/
+
+# Keep evaluation ground truth JSONs under version control
+!data/evaluation/ground_truth/*.json
+!data/evaluation/ground_truth/**/*.json
+
+# Sensitive Files
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+service-account-*.json
+config.local.json
+secrets/
+
+# PDF Processing Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+cache/
+
+# Google Vision API credentials (if you add them later)
+*-credentials.json
+google-application-credentials.json
+
+# Tesseract temporary files
+tesseract-*.txt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*~
+*.orig
+
+# Archive files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# But keep important data structure
+!data/.gitkeep
+!data/Invoices/.gitkeep
+
+# Keep example configurations
+!config.example.json
+
+# Documentation
+docs/_build/
+site/
+
+# Testing
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+service-account.json
+data/gmail_pdf_extract
+data/llm_ready/ocr_texts
+.~lock.*

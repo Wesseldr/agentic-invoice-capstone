@@ -1,0 +1,19 @@
+# --- Core Dependencies ---
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+polars>=0.20.0       # Used for data manipulation in processor
+pdfplumber>=0.10.0   # Primary text extraction
+PyPDF2>=3.0.0        # Fallback text extraction
+
+# --- Google & AI Dependencies ---
+google-adk>=1.18.0   # The Agent Development Kit (includes google-genai)
+google-cloud-vision>=3.4.0   # For the OCR Tool
+
+# --- OCR Tools ---
+pdf2image>=1.16.3    # Required to convert PDF pages to images for Vision/OCR
+Pillow>=10.0.0       # Image processing helper
+
+# --- Utilities ---
+deepdiff>=6.7.1      # For the evaluation script (JSON comparison)
+aiohttp>=3.9.0       # Async networking for the agents
+reportlab>=4.0.0     # PDF generation utilities

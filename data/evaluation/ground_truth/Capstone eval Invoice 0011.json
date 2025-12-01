@@ -1,0 +1,109 @@
+{
+  "invoiceHeader": {
+    "supplierName": "Peter Bruggers",
+    "invoiceNumber": "2025.11.01",
+    "invoiceDate": "2025-10-12",
+    "kvkNumber": "34333777",
+    "vatNumber": "NL171111111B01"
+  },
+  "isCoachingInvoice": true,
+  "clientCases": [
+    {
+      "validatedClientCaseNumber": "AA11-A22-123",
+      "rawClientCaseNumber": "AA11-A22-123",
+      "date": "2025-09-01",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "AB4-K27-321",
+      "rawClientCaseNumber": "AB4-K27-321",
+      "date": "2025-09-12",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "AB4-K27-321",
+      "rawClientCaseNumber": "AB4-K27-321",
+      "date": "2025-09-20",
+      "durationHours": 2.0
+    },
+    {
+      "validatedClientCaseNumber": "AC22-P16-555",
+      "rawClientCaseNumber": "AC22-P16-555",
+      "date": "2025-09-11",
+      "durationHours": 3.0
+    },
+    {
+      "validatedClientCaseNumber": "AD17-R88-445",
+      "rawClientCaseNumber": "AD17-R88-445",
+      "date": "2025-09-17",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "AE23-I27-321",
+      "rawClientCaseNumber": "AE23-I27-321",
+      "date": "2025-09-11",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "AE23-I27-321",
+      "rawClientCaseNumber": "AE23-I27-321",
+      "date": "2025-09-30",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "EA17-P01-333",
+      "rawClientCaseNumber": "EA17-P01-333",
+      "date": "2025-09-16",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "DA77-I59-245",
+      "rawClientCaseNumber": "DA77-I59-245",
+      "date": "2025-09-18",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "CA15-L15-666",
+      "rawClientCaseNumber": "CA15-L15-666",
+      "date": "2025-09-23",
+      "durationHours": 0.5
+    },
+    {
+      "validatedClientCaseNumber": "DA15-R33-212",
+      "rawClientCaseNumber": "DA15-R33-212",
+      "date": "2025-09-30",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "ZZ30-J20-111",
+      "rawClientCaseNumber": "ZZ30-J20-111",
+      "date": "2025-09-17",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "GG6-N49-222",
+      "rawClientCaseNumber": "GG6-N49-222",
+      "date": "2025-09-10",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "KK6-Q17-333",
+      "rawClientCaseNumber": "KK6-Q17-333",
+      "date": "2025-09-19",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "HH6-P52-777",
+      "rawClientCaseNumber": "HH6-P52-777",
+      "date": "2025-09-16",
+      "durationHours": 1.0
+    },
+    {
+      "validatedClientCaseNumber": "HH6-P01-888",
+      "rawClientCaseNumber": "HH6-P01-888",
+      "date": "2025-09-10",
+      "durationHours": 1.0
+    }
+  ],
+  "clientCasesNoActivity": []
+}

@@ -1,0 +1,67 @@
+{
+  "invoiceHeader": {
+    "supplierName": "Praktijk Ballalance",
+    "invoiceNumber": "20220492",
+    "invoiceDate": "2022-01-31",
+    "kvkNumber": "18567267",
+    "vatNumber": "NL001652526B41"
+  },
+  "isCoachingInvoice": true,
+  "clientCases": [
+    {
+      "validatedClientCaseNumber": "FM18-K55-556",
+      "rawClientCaseNumber": "FM18-K55-556",
+      "date": "2021-12-31",
+      "durationHours": 2.0
+    },
+    {
+      "validatedClientCaseNumber": "FM18-K55-556",
+      "rawClientCaseNumber": "FM18-K55-556",
+      "date": "2021-12-24",
+      "durationHours": 2.0
+    },
+    {
+      "validatedClientCaseNumber": "GT29-K05-071",
+      "rawClientCaseNumber": "GT29-K05-071",
+      "date": "2021-12-15",
+      "durationHours": 1.5
+    },
+    {
+      "validatedClientCaseNumber": "GR15-N12-229",
+      "rawClientCaseNumber": "GR15-N12-229",
+      "date": "2022-01-04",
+      "durationHours": 2.5
+    },
+    {
+      "validatedClientCaseNumber": "GU10-Q09-463",
+      "rawClientCaseNumber": "GU10-Q09-463",
+      "date": "2022-01-06",
+      "durationHours": 2.0
+    },
+    {
+      "validatedClientCaseNumber": "GU7-P54-235",
+      "rawClientCaseNumber": "GU7-P54-235",
+      "date": "2022-01-11",
+      "durationHours": 2.5
+    },
+    {
+      "validatedClientCaseNumber": "GU6-X40-453",
+      "rawClientCaseNumber": "GU6-X40-453",
+      "date": "2022-01-12",
+      "durationHours": 2.0
+    },
+    {
+      "validatedClientCaseNumber": "GS29-T12-093",
+      "rawClientCaseNumber": "GS29-T12-093",
+      "date": "2022-01-13",
+      "durationHours": 2.5
+    },
+    {
+      "validatedClientCaseNumber": "GS29-T12-093",
+      "rawClientCaseNumber": "GS29-T12-093",
+      "date": "2022-01-27",
+      "durationHours": 2.0
+    }
+  ],
+  "clientCasesNoActivity": []
+}

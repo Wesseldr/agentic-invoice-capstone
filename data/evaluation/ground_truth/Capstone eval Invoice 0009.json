@@ -1,0 +1,31 @@
+{
+  "invoiceHeader": {
+    "supplierName": "Bravarius",
+    "invoiceNumber": "514938",
+    "invoiceDate": "2025-12-01",
+    "kvkNumber": "17724577",
+    "vatNumber": "NL001252598B21"
+  },
+  "isCoachingInvoice": true,
+  "clientCases": [
+    {
+      "validatedClientCaseNumber": "ZZ30-J20-111",
+      "rawClientCaseNumber": "ZZ30-J20-111",
+      "date": "2025-11-03",
+      "durationHours": 1.25
+    },
+    {
+      "validatedClientCaseNumber": "DA77-I59-245",
+      "rawClientCaseNumber": "DA77-I59-245",
+      "date": "2025-11-04",
+      "durationHours": 0.5
+    },
+    {
+      "validatedClientCaseNumber": "DA15-R33-212",
+      "rawClientCaseNumber": "DA15-R33-212",
+      "date": "2025-11-29",
+      "durationHours": 1.25
+    }
+  ],
+  "clientCasesNoActivity": []
+}

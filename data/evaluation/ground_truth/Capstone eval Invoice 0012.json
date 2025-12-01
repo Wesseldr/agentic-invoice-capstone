@@ -1,0 +1,24 @@
+{
+  "invoiceHeader": {
+    "supplierName": "Bazalt Coaching & Consultancy",
+    "invoiceNumber": "622",
+    "invoiceDate": "2025-10-31",
+    "kvkNumber": "5333777",
+    "vatNumber": "NL171111234B01"
+  },
+  "isCoachingInvoice": true,
+  "clientCases": [
+    {
+      "validatedClientCaseNumber": "DA77-I59-245",
+      "rawClientCaseNumber": "DA77-I59-245",
+      "date": "2025-10-24",
+      "durationHours": 5.0
+    }
+  ],
+  "clientCasesNoActivity": [
+    "AC22-P16-555",
+    "AD17-R88-445",
+    "GG6-N49-222",
+    "HH6-P01-888"
+  ]
+}
