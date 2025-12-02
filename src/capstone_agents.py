@@ -318,11 +318,6 @@ class InvoiceOrchestrator:
                 "invoice_date_hint": invoice_data.get("invoice_date_hint"),
             }
             
-            # --- HANDLING CORRECTIE MAP ---
-            # We halen nu drie lijsten op uit de invoice_data (voorbereid door utils.py)
-            # 1. prompt_allowed_cases: Bevat RUWE codes (bijv. '125'), zodat de Agent ze vindt in de tekst.
-            # 2. valid_allowed_cases: Bevat CORRECTE codes (bijv. 'I25'), voor de strikte validatie.
-            # 3. correction_map: De vertaalslag ('125' -> 'I25').
             
             # Fallback voor backward compatibility
             default_allowed = invoice_data.get("allowed_client_cases", [])
@@ -509,7 +504,9 @@ async def main():
     
     success_count = 0
     
-    for example in examples:
+    total_invoices = len(examples)
+    
+    for index, example in enumerate(examples):
         filename = example['filename']
         print(f"\nProcessing: {filename}")
         
@@ -526,13 +523,14 @@ async def main():
         else:
             print("❌ Failed to process.")
 
-        # Rate Limit Pauze (Houdt deze voor veiligheid bij batch processing)
-        print("   💤 Cooling down for 10s to avoid Rate Limit...")
-        await asyncio.sleep(10)
+        # Smart Rate Limit: Only sleep if there are more items to process
+        if index < total_invoices - 1:
+            print("   💤 Cooling down for 10s to avoid Rate Limit...")
+            await asyncio.sleep(10)
+        else:
+            print("   🚀 Batch complete. Skipping final cooldown.")
+            
 
-    print(f"\nDone. Processed {success_count}/{len(examples)} invoices.")
-    
-    # Cleanup wait to avoid 'Unclosed connector' warnings
     await asyncio.sleep(0.5)
 
 if __name__ == "__main__":

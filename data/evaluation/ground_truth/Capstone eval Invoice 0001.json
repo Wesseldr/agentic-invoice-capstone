@@ -9,38 +9,38 @@
   "isCoachingInvoice": true,
   "clientCases": [
     {
-      "validatedClientCaseNumber": "ZU16-N25-208",
-      "rawClientCaseNumber": "ZU16-N25-208",
+      "validatedClientCaseNumber": "DEMO-CASE-101",
+      "rawClientCaseNumber": "DEMO-CASE-101",
       "date": "2022-05-25",
       "durationHours": 1.5
     },
     {
-      "validatedClientCaseNumber": "ZA6-K55-453",
-      "rawClientCaseNumber": "ZA6-K55-453",
+      "validatedClientCaseNumber": "DEMO-CASE-102",
+      "rawClientCaseNumber": "DEMO-CASE-102",
       "date": "2022-05-15",
       "durationHours": 1.5
     },
     {
-      "validatedClientCaseNumber": "ZH19-R44-173",
-      "rawClientCaseNumber": "ZH19-R44-173",
+      "validatedClientCaseNumber": "DEMO-CASE-103",
+      "rawClientCaseNumber": "DEMO-CASE-103",
       "date": "2022-05-09",
       "durationHours": 1.5
     },
     {
-      "validatedClientCaseNumber": "JJ20-N50-476",
-      "rawClientCaseNumber": "JJ20-N50-476",
+      "validatedClientCaseNumber": "DEMO-CASE-104",
+      "rawClientCaseNumber": "DEMO-CASE-104",
       "date": "2022-05-23",
       "durationHours": 1.5
     },
     {
-      "validatedClientCaseNumber": "GG14-R17-559",
-      "rawClientCaseNumber": "GG14-R17-559",
+      "validatedClientCaseNumber": "DEMO-CASE-105",
+      "rawClientCaseNumber": "DEMO-CASE-105",
       "date": "2022-05-23",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "DG2-Q13-217",
-      "rawClientCaseNumber": "DG2-Q13-217",
+      "validatedClientCaseNumber": "DEMO-CASE-106",
+      "rawClientCaseNumber": "DEMO-CASE-106",
       "date": "2022-05-11",
       "durationHours": 1.5
     }

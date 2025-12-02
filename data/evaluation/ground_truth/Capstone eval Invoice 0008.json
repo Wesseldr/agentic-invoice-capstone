@@ -9,14 +9,14 @@
   "isCoachingInvoice": true,
   "clientCases": [
     {
-      "validatedClientCaseNumber": "CH26-D49-187",
-      "rawClientCaseNumber": "CH26-D49-187",
+      "validatedClientCaseNumber": "DEMO-CASE-802",
+      "rawClientCaseNumber": "DEMO-CASE-802",
       "date": "2018-02-05",
       "durationHours": 1.5
     },
     {
-      "validatedClientCaseNumber": "CH26-D49-187",
-      "rawClientCaseNumber": "CH26-D49-187",
+      "validatedClientCaseNumber": "DEMO-CASE-802",
+      "rawClientCaseNumber": "DEMO-CASE-802",
       "date": "2018-02-13",
       "durationHours": 1.25
     }

@@ -9,98 +9,98 @@
   "isCoachingInvoice": true,
   "clientCases": [
     {
-      "validatedClientCaseNumber": "AA11-A22-123",
-      "rawClientCaseNumber": "AA11-A22-123",
+      "validatedClientCaseNumber": "DEMO-CASE-110",
+      "rawClientCaseNumber": "DEMO-CASE-110",
       "date": "2025-09-01",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "AB4-K27-321",
-      "rawClientCaseNumber": "AB4-K27-321",
+      "validatedClientCaseNumber": "DEMO-CASE-111",
+      "rawClientCaseNumber": "DEMO-CASE-111",
       "date": "2025-09-12",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "AB4-K27-321",
-      "rawClientCaseNumber": "AB4-K27-321",
+      "validatedClientCaseNumber": "DEMO-CASE-111",
+      "rawClientCaseNumber": "DEMO-CASE-111",
       "date": "2025-09-20",
       "durationHours": 2.0
     },
     {
-      "validatedClientCaseNumber": "AC22-P16-555",
-      "rawClientCaseNumber": "AC22-P16-555",
+      "validatedClientCaseNumber": "DEMO-CASE-112",
+      "rawClientCaseNumber": "DEMO-CASE-112",
       "date": "2025-09-11",
       "durationHours": 3.0
     },
     {
-      "validatedClientCaseNumber": "AD17-R88-445",
-      "rawClientCaseNumber": "AD17-R88-445",
+      "validatedClientCaseNumber": "DEMO-CASE-113",
+      "rawClientCaseNumber": "DEMO-CASE-113",
       "date": "2025-09-17",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "AE23-I27-321",
-      "rawClientCaseNumber": "AE23-I27-321",
+      "validatedClientCaseNumber": "DEMO-CASE-114",
+      "rawClientCaseNumber": "DEMO-CASE-114",
       "date": "2025-09-11",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "AE23-I27-321",
-      "rawClientCaseNumber": "AE23-I27-321",
+      "validatedClientCaseNumber": "DEMO-CASE-114",
+      "rawClientCaseNumber": "DEMO-CASE-114",
       "date": "2025-09-30",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "EA17-P01-333",
-      "rawClientCaseNumber": "EA17-P01-333",
+      "validatedClientCaseNumber": "DEMO-CASE-115",
+      "rawClientCaseNumber": "DEMO-CASE-115",
       "date": "2025-09-16",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "DA77-I59-245",
-      "rawClientCaseNumber": "DA77-I59-245",
+      "validatedClientCaseNumber": "DEMO-CASE-116",
+      "rawClientCaseNumber": "DEMO-CASE-116",
       "date": "2025-09-18",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "CA15-L15-666",
-      "rawClientCaseNumber": "CA15-L15-666",
+      "validatedClientCaseNumber": "DEMO-CASE-117",
+      "rawClientCaseNumber": "DEMO-CASE-117",
       "date": "2025-09-23",
       "durationHours": 0.5
     },
     {
-      "validatedClientCaseNumber": "DA15-R33-212",
-      "rawClientCaseNumber": "DA15-R33-212",
+      "validatedClientCaseNumber": "DEMO-CASE-118",
+      "rawClientCaseNumber": "DEMO-CASE-118",
       "date": "2025-09-30",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "ZZ30-J20-111",
-      "rawClientCaseNumber": "ZZ30-J20-111",
+      "validatedClientCaseNumber": "DEMO-CASE-119",
+      "rawClientCaseNumber": "DEMO-CASE-119",
       "date": "2025-09-17",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "GG6-N49-222",
-      "rawClientCaseNumber": "GG6-N49-222",
+      "validatedClientCaseNumber": "DEMO-CASE-120",
+      "rawClientCaseNumber": "DEMO-CASE-120",
       "date": "2025-09-10",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "KK6-Q17-333",
-      "rawClientCaseNumber": "KK6-Q17-333",
+      "validatedClientCaseNumber": "DEMO-CASE-121",
+      "rawClientCaseNumber": "DEMO-CASE-121",
       "date": "2025-09-19",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "HH6-P52-777",
-      "rawClientCaseNumber": "HH6-P52-777",
+      "validatedClientCaseNumber": "DEMO-CASE-122",
+      "rawClientCaseNumber": "DEMO-CASE-122",
       "date": "2025-09-16",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "HH6-P01-888",
-      "rawClientCaseNumber": "HH6-P01-888",
+      "validatedClientCaseNumber": "DEMO-CASE-113",
+      "rawClientCaseNumber": "DEMO-CASE-113",
       "date": "2025-09-10",
       "durationHours": 1.0
     }

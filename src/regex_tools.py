@@ -39,8 +39,7 @@ class InvoiceRegexExtractor:
     # --- PATTERNS ---
     PATTERNS = {
         'client_cases': [
-            re.compile(r'(?i)\b([A-Z0-9]{2}\d{1,2}-[A-Z0-9]\d{2}-\d{3})\b'),
-            #re.compile(r'(?i)(?:client|case|dossier|cliënt)[:\s#-]*([A-Z0-9-]{6,})', re.IGNORECASE),
+            re.compile(r'(?i)\b(DEM[O0]-CASE-[A-Z0-9-]+)\b'),
         ],
         'invoice_numbers': [
             re.compile(r'(?i)\b(?:factuurnummer|factuur ?nr\.?|invoice.?number)\b[:\s]+([A-Z0-9./-]+)'),

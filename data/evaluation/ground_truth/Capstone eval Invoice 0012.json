@@ -9,16 +9,16 @@
   "isCoachingInvoice": true,
   "clientCases": [
     {
-      "validatedClientCaseNumber": "DA77-I59-245",
-      "rawClientCaseNumber": "DA77-I59-245",
+      "validatedClientCaseNumber": "DEMO-CASE-215",
+      "rawClientCaseNumber": "DEMO-CASE-215",
       "date": "2025-10-24",
-      "durationHours": 5.0
+      "durationHours": 1.0
     }
   ],
   "clientCasesNoActivity": [
-    "AC22-P16-555",
-    "AD17-R88-445",
-    "GG6-N49-222",
-    "HH6-P01-888"
+    "DEMO-CASE-210",
+    "DEMO-CASE-211",
+    "DEMO-CASE-213",
+    "DEMO-CASE-219"
   ]
 }

@@ -5,7 +5,6 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# Negeer data output, maar BEHOUD de input en reference!
 data/llm_ready/
 !data/invoices/
 !data/reference/

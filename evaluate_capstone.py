@@ -77,7 +77,6 @@ def evaluate_invoice(generated_path, ground_truth_path):
             report.append(f"❌ {field} mismatch: Expected '{val_truth}', got '{val_gen}'")
 
     # 2. Line Item Logic (Set Comparison)
-    # --- FIX: GEBRUIK NIEUWE VELDNAAM VOOR VERGELIJKING ---
     gen_cases = set(c["validatedClientCaseNumber"] for c in gen["clientCases"])
     truth_cases = set(c["validatedClientCaseNumber"] for c in truth["clientCases"])
     # ----------------------------------------------------
@@ -91,7 +90,6 @@ def evaluate_invoice(generated_path, ground_truth_path):
         report.append(f"❌ Line Items mismatch. Missing: {missing}, Unexpected: {extra}")
 
     # 3. No Activity Logic
-    # Deze gebruikt al strings, dus dit is prima:
     gen_no_act = set(gen["clientCasesNoActivity"])
     truth_no_act = set(truth["clientCasesNoActivity"])
     
@@ -119,11 +117,10 @@ def run_evaluation():
     
     results = []
     
-    # --- FIX 1: Sorteer de bestanden ---
+
     truth_files = sorted(list(truth_dir.glob("*.json")))
     
     for truth_file in truth_files:
-        # --- FIX 2: Correcte bestandsnaam afleiden ---
         # Ground Truth: "Factuur 001.json" -> Generated: "Factuur 001_parsed.json"
         generated_name = truth_file.name.replace(".json", "_parsed.json")
         gen_file = gen_dir / generated_name

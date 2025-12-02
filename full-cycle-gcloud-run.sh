@@ -72,6 +72,12 @@ echo "      - Artifact Registry API"
 echo "   (The script will attempt to enable them for you...)"
 echo ""
 
+
+# 1. Clean up previous run data to prove reproducibility
+echo ""
+echo "🧹 Cleaning up workspace (removing old output)..."
+rm -rf data/llm_ready/*
+
 # --- 2. SETUP ENVIRONMENT ---
 
 echo ""

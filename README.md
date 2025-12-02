@@ -7,7 +7,7 @@
 This project implements an intelligent **Multi-Agent System** designed to extract structured data from diverse invoice formats.
 
 **The Challenge:**
-This solution is built for a healthcare administration office managing **150+ independent health professionals**. Every professional submits hours using their own unique invoice layout (Word, Excel, PDF export), making traditional template-based extraction impossible.
+This solution is built for a Dutch healthcare administration office managing **150+ independent health professionals**. Every professional submits hours using their own unique invoice layout (Word, Excel, PDF export), making traditional template-based extraction impossible.
 
 **The Solution:**
 Unlike standard "wrapper" solutions, this system employs a **Hybrid Architecture** combining deterministic software engineering (Regex) with probabilistic AI (LLMs). 
@@ -28,7 +28,7 @@ In a production environment, this agent integrates into the workflow as follows:
 * **Validation:** Cross-references extracted Case IDs and billable hours against the internal **Case Management System**.
 * **Human-in-the-Loop:** Administrators review a generated validation report to make the final accept/reject decision, allowing them to focus purely on exceptions rather than routine data entry.
 
-* **Output:** Upon approval, the validated data updates the case tracking records, and the PDF is forwarded to the accounting cloud for payment processing.*
+* **Output:** Upon approval, the validated data updates the case tracking records, and the PDF is forwarded to the accounting cloud for *payment processing.*
 
 **Scope of this Submission:** For this Capstone, a standalone, reproducible version of the core engine is provided using synthetic invoice data and a `valid_clientcases.csv` lookup table to simulate external systems.
 
@@ -143,8 +143,25 @@ The project is modularized for maintainability:
 
 ## 📊 Evaluation & Design Decisions
 
-### Methodology
-To ensure production readiness, the system was evaluated against a "Golden Set" of invoices containing known edge cases (e.g., missing headers, complex tables, layout variations).
+### Methodology & Test Dataset
+To ensure production readiness, the system was evaluated against a "Golden Set" of 13 invoices, each designed to test a specific architectural component or failure mode.
+
+| Invoice ID | Challenge / Edge Case | Agent Behavior & Solution |
+| :--- | :--- | :--- |
+| **0001** | **Baseline:** Standard layout, clean text. | ✅ **Pass:** Instant extraction via Regex (Tier 1). |
+| **0002** | **Legacy Bug:** Code contains `0` instead of `O` (`DEM0-`). | 🛠️ **Fix:** Fuzzy Matcher detects ambiguity & auto-corrects to `DEMO-`. |
+| **0003** | **Legacy Bug:** Code contains `1` instead of `I` (`30I`). | 🛠️ **Fix:** Fuzzy Matcher auto-corrects to `301` based on canonical mapping. |
+| **0004** | **Hidden Data:** KvK/VAT only present in footer image (not text). | 🤖 **Agentic:** Triggers **Vision OCR** → **Regex** extracts data instantly. *Tier 2 (LLM) skipped*. |
+| **0005** | **Invalid Data:** Contains non-existent Client Case ID. | 🛑 **Reject:** Gatekeeper correctly flags invoice as invalid/fraudulent. |
+| **0006** | **Complex Layout:** Hours hidden in "Quantity" column, date in description. | 🧠 **Logic:** LineItemAgent correctly parses semantic context of columns. |
+| **0007** | **Narrative:** No table; sessions described in full sentences. | 🧠 **Logic:** Agent successfully "unrolls" text sentences into structured line items. |
+| **0008** | **Ambiguity:** Invoice number hidden in sentence ("onder nummer..."). | 🛡️ **Safety:** Agent returns `null` instead of guessing, adhering to strict precision policy. |
+| **0009** | **Layout Noise:** Client logo larger than Supplier logo. | ⚠️ **Limit:** Supplier name ambiguous (flagged for Human Review); KvK/VAT extracted correctly. |
+| **0010** | **Unit Conversion:** Time reported in minutes (60, 30) instead of hours. | 🧮 **Calc:** Agent detects unit context and converts to hours (1.0, 0.5). |
+| **0011** | **Volume:** Multi-page document with high volume of lines. | ✅ **Pass:** Full pagination consistency check. |
+| **0012** | **Zero-Billable:** Contains case numbers with 0 hours/cost. | 🧹 **Clean:** Agent segregates these into a separate `NoActivity` list to keep ledger clean. |
+| **0013** | **Scope Creep:** Consultancy invoice (billable hours but no patient codes). | 🛑 **Reject:** Gatekeeper identifies "Out of Scope" and routes to Finance (not Healthcare). |
+
 
 ### Challenges & "Precision-First" Policy
 During development, we encountered ambiguous data. For example, Invoice 0008 contains a potential invoice number hidden in a sentence ("onder nummer...").

@@ -64,8 +64,8 @@ def main():
     output_dir = PROJECT_ROOT / "data" / "llm_ready"
     
     # Initialize extractor
-    print(f"\n📂 Input directory: {invoice_dir}")
-    print(f"📂 Output directory: {output_dir}\n")
+    #print(f"\n📂 Input directory: {invoice_dir}")
+    #print(f"📂 Output directory: {output_dir}\n")
     
     # Check if input dir exists
     if not invoice_dir.exists():

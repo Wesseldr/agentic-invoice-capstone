@@ -9,8 +9,8 @@
   "isCoachingInvoice": true,
   "clientCases": [
     {
-      "validatedClientCaseNumber": "ZU16-I25-555",
-      "rawClientCaseNumber": "ZU16-125-555",
+      "validatedClientCaseNumber": "DEMO-CASE-201",
+      "rawClientCaseNumber": "DEM0-CASE-201",
       "date": "2022-08-25",
       "durationHours": 1.5
     }

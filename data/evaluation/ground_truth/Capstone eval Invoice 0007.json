@@ -1,46 +1,46 @@
 {
   "invoiceHeader": {
-    "supplierName": "FemalePower",
-    "invoiceNumber": "0102",
-    "invoiceDate": "2025-05-01",
+    "supplierName": "Bloei & Groei",
+    "invoiceNumber": "7773",
+    "invoiceDate": "2025-06-01",
     "kvkNumber": "50485337",
     "vatNumber": "NL002382187B01"
   },
   "isCoachingInvoice": true,
   "clientCases": [
     {
-      "validatedClientCaseNumber": "KZ28-P57-484",
-      "rawClientCaseNumber": "KZ28-P57-484",
+      "validatedClientCaseNumber": "DEMO-CASE-777",
+      "rawClientCaseNumber": "DEMO-CASE-777",
       "date": "2025-04-02",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "KZ28-P57-484",
-      "rawClientCaseNumber": "KZ28-P57-484",
+      "validatedClientCaseNumber": "DEMO-CASE-777",
+      "rawClientCaseNumber": "DEMO-CASE-777",
       "date": "2025-04-17",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "LL21-J51-181",
-      "rawClientCaseNumber": "LL21-J51-181",
+      "validatedClientCaseNumber": "DEMO-CASE-753",
+      "rawClientCaseNumber": "DEMO-CASE-753",
       "date": "2025-04-03",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "LL21-J51-181",
-      "rawClientCaseNumber": "LL21-J51-181",
+      "validatedClientCaseNumber": "DEMO-CASE-753",
+      "rawClientCaseNumber": "DEMO-CASE-753",
       "date": "2025-04-24",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "KD31-P53-583",
-      "rawClientCaseNumber": "KD31-P53-583",
+      "validatedClientCaseNumber": "DEMO-CASE-733",
+      "rawClientCaseNumber": "DEMO-CASE-733",
       "date": "2025-04-11",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "DD3-Z01-114",
-      "rawClientCaseNumber": "DD3-Z01-114",
+      "validatedClientCaseNumber": "DEMO-CASE-781",
+      "rawClientCaseNumber": "DEMO-CASE-781",
       "date": "2025-04-14",
       "durationHours": 1.5
     }

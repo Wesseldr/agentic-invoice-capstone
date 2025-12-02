@@ -9,20 +9,20 @@
   "isCoachingInvoice": true,
   "clientCases": [
     {
-      "validatedClientCaseNumber": "ZZ30-J20-111",
-      "rawClientCaseNumber": "ZZ30-J20-111",
+      "validatedClientCaseNumber": "DEMO-CASE-942",
+      "rawClientCaseNumber": "DEMO-CASE-942",
       "date": "2025-11-03",
       "durationHours": 1.25
     },
     {
-      "validatedClientCaseNumber": "DA77-I59-245",
-      "rawClientCaseNumber": "DA77-I59-245",
+      "validatedClientCaseNumber": "DEMO-CASE-938",
+      "rawClientCaseNumber": "DEMO-CASE-938",
       "date": "2025-11-04",
       "durationHours": 0.5
     },
     {
-      "validatedClientCaseNumber": "DA15-R33-212",
-      "rawClientCaseNumber": "DA15-R33-212",
+      "validatedClientCaseNumber": "DEMO-CASE-913",
+      "rawClientCaseNumber": "DEMO-CASE-913",
       "date": "2025-11-29",
       "durationHours": 1.25
     }

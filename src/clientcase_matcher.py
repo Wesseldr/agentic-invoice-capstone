@@ -129,8 +129,6 @@ class ClientCaseMatcher:
         Converts a code to its 'canonical' form by normalizing ambiguous characters.
         
         Logic:
-        - Based on the known format LLDD-LDD-DDD (Letter/Digit structure).
-        - Checks specific positions (0, 1, 5) where letters are expected.
         - Swaps 'I' -> '1' and 'O' -> '0' at these positions to handle OCR misinterpretations.
         - Other positions are left untouched.
 
@@ -146,7 +144,7 @@ class ClientCaseMatcher:
             return c
 
         chars = list(c)
-        letter_positions = [0, 1, 5]
+        letter_positions = [3, 10, 11, 12]
 
         for pos in letter_positions:
             if pos < len(chars):

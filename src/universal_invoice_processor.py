@@ -240,7 +240,7 @@ class UniversalInvoiceExtractor:
             reason = "The invoice contains clientCaseNumbers that are either unknown or ambiguous. The sender must update the invoice with valid CCNs."
         elif counts["fuzzy_io_swap"] > 0:
             verdict = "needs_review"
-            reason="Invoice contains clientCaseNumbers with historical character errors (e.g., 1/I or 0/O swaps caused by the 2024–2025 bug). Characters “1” and “0” have now been auto-corrected to “I” and “O.”"
+            reason="Invoice contains clientCaseNumbers with historical character errors (e.g., 1/I or 0/O swaps). Characters “1” and “0” have now been auto-corrected to “I” and “O.”"
         return {
             "verdict": verdict,
             "reason": reason,
@@ -502,7 +502,7 @@ class UniversalInvoiceExtractor:
             json_path = self.output_dir / "invoice_metadata.json"
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
-            print(f"Metadata saved to: {json_path}")
+            print(f"Metadata saved..")
             
             # Create a manifest file for LLM batch processing
             manifest = {
@@ -543,7 +543,7 @@ class UniversalInvoiceExtractor:
             manifest_path = self.output_dir / "manifest.json"
             with open(manifest_path, 'w', encoding='utf-8') as f:
                 json.dump(manifest, f, indent=2)
-            print(f"Manifest saved to: {manifest_path}")
+            print(f"Manifest saved...")
             
             return df
 
@@ -589,7 +589,7 @@ def main():
         print("\n" + "="*60)
         print("OUTPUT STRUCTURE")
         print("="*60)
-        print(f"📁 {output_dir}")
+        print(f"📁 data/llm_ready")
         print("  ├── 📄 invoice_metadata.json       - Detailed patterns")
         print("  ├── 📄 manifest.json               - Processing manifest")
         print("  └── 📁 raw_texts/                  - Full text for each invoice")

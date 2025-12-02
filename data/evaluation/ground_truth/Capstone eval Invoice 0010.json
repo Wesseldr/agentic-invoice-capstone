@@ -1,70 +1,70 @@
 {
   "invoiceHeader": {
-    "supplierName": "Psychologiepraktijk Beemsterboer",
-    "invoiceNumber": "0622-042",
-    "invoiceDate": "2022-07-07",
+    "supplierName": "R. Beemsterboer",
+    "invoiceNumber": "3281-291",
+    "invoiceDate": "2022-08-01",
     "kvkNumber": "24354813",
     "vatNumber": null
   },
   "isCoachingInvoice": true,
   "clientCases": [
     {
-      "validatedClientCaseNumber": "GQ2-Q18-569",
-      "rawClientCaseNumber": "GQ2-Q18-569",
+      "validatedClientCaseNumber": "DEMO-CASE-022",
+      "rawClientCaseNumber": "DEMO-CASE-022",
       "date": "2022-07-15",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "CM9-S15-564",
-      "rawClientCaseNumber": "CM9-S15-564",
+      "validatedClientCaseNumber": "DEMO-CASE-054",
+      "rawClientCaseNumber": "DEMO-CASE-054",
       "date": "2022-07-25",
       "durationHours": 0.5
     },
     {
-      "validatedClientCaseNumber": "GT8-Q49-165",
-      "rawClientCaseNumber": "GT8-Q49-165",
+      "validatedClientCaseNumber": "DEMO-CASE-023",
+      "rawClientCaseNumber": "DEMO-CASE-023",
       "date": "2022-07-05",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "GZ14-L55-378",
-      "rawClientCaseNumber": "GZ14-L55-378",
+      "validatedClientCaseNumber": "DEMO-CASE-033",
+      "rawClientCaseNumber": "DEMO-CASE-033",
       "date": "2022-07-19",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "HZ22-W18-451",
-      "rawClientCaseNumber": "HZ22-W18-451",
+      "validatedClientCaseNumber": "DEMO-CASE-044",
+      "rawClientCaseNumber": "DEMO-CASE-044",
       "date": "2022-07-08",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "HD25-K98-332",
-      "rawClientCaseNumber": "HD25-K98-332",
+      "validatedClientCaseNumber": "DEMO-CASE-010",
+      "rawClientCaseNumber": "DEMO-CASE-010",
       "date": "2022-07-04",
       "durationHours": 2.0
     },
     {
-      "validatedClientCaseNumber": "HK31-J87-351",
-      "rawClientCaseNumber": "HK31-J87-351",
+      "validatedClientCaseNumber": "DEMO-CASE-070",
+      "rawClientCaseNumber": "DEMO-CASE-070",
       "date": "2022-07-14",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "HZ16-L49-597",
-      "rawClientCaseNumber": "HZ16-L49-597",
+      "validatedClientCaseNumber": "DEMO-CASE-053",
+      "rawClientCaseNumber": "DEMO-CASE-053",
       "date": "2022-07-05",
       "durationHours": 2.0
     },
     {
-      "validatedClientCaseNumber": "ZM23-A23-566",
-      "rawClientCaseNumber": "ZM23-A23-566",
+      "validatedClientCaseNumber": "DEMO-CASE-011",
+      "rawClientCaseNumber": "DEMO-CASE-011",
       "date": "2022-07-11",
       "durationHours": 1.0
     },
     {
-      "validatedClientCaseNumber": "ZN1-X45-453",
-      "rawClientCaseNumber": "ZN1-X45-453",
+      "validatedClientCaseNumber": "DEMO-CASE-042",
+      "rawClientCaseNumber": "DEMO-CASE-042",
       "date": "2022-07-20",
       "durationHours": 1.0
     }

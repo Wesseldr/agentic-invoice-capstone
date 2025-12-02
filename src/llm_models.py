@@ -52,9 +52,9 @@ class ClientCase(BaseModel):
     and the validated ID matched against the internal database.
 
     Attributes:
-        validatedClientCaseNumber (str): The canonical, corrected ID from the database (e.g., 'ZU16-I25-555').
+        validatedClientCaseNumber (str): The canonical, corrected ID from the database .
                                          This is the value used for final processing.
-        rawClientCaseNumber (str): The exact text originally found on the PDF (e.g., 'ZU16-125-555').
+        rawClientCaseNumber (str): The exact text originally found on the PDF.
                                    Stored for audit trails and debugging.
         date (str): Date of the session in ISO 8601 format (YYYY-MM-DD).
         durationHours (float): Duration of the session in hours (decimal).

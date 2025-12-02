@@ -6,11 +6,11 @@
     "kvkNumber": "69429576",
     "vatNumber": "NL181115121B03"
   },
-  "isCoachingInvoice": true,
+  "isCoachingInvoice": false,
   "clientCases": [
     {
-      "validatedClientCaseNumber": "ZU17-O26-555",
-      "rawClientCaseNumber": "ZU17-026-555",
+      "validatedClientCaseNumber": "DEMO-CASE-301",
+      "rawClientCaseNumber": "DEMO-CASE-30I",
       "date": "2022-09-25",
       "durationHours": 1.5
     }
